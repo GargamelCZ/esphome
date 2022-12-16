@@ -171,6 +171,12 @@ struct Color {
 
   static const Color BLACK;
   static const Color WHITE;
+  static const Color RED;
+  static const Color GREEN;
+  static const Color BLUE;
+  static const Color CYAN;
+  static const Color MAGENTA;
+  static const Color YELLOW;
 };
 
 ESPDEPRECATED("Use Color::BLACK instead of COLOR_BLACK", "v1.21")
